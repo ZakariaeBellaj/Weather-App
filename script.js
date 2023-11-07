@@ -33,6 +33,7 @@ function onSuccess(position){
     const {latitude, longitude} = position.coords; // getting lat and lon of the user device from coords obj
     api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=1d168f7ce2e9736124765094f1afd005`;
     fetchData();
+    //API ERROR
 }
 
 function onError(error){
